@@ -1,4 +1,4 @@
-# 🛡️ AltaySec LLM Security Serisi: Türkiye'nin Yapay Zeka Güvenliği Rehberi
+# AltaySec LLM Security Serisi: Türkiye'nin Yapay Zeka Güvenliği Rehberi
 
 Yapay zeka ve Büyük Dil Modelleri (LLM) dünyayı değiştirirken, beraberinde yeni ve karmaşık güvenlik zafiyetleri getiriyor. Bu seri, **AltaySec** tarafından Türkiye'deki siber güvenlik ekosistemini geliştirmek ve yapay zeka güvenliği alanında yerli kaynak oluşturmak amacıyla hazırlanmıştır.
 
