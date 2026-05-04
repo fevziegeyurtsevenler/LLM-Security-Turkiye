@@ -8,25 +8,25 @@ Yapay zeka ve Büyük Dil Modelleri (LLM) dünyayı değiştirirken, beraberinde
 
 Bu seri, temel kavramlardan başlayarak otonom ajan güvenliğine ve ileri düzey yol haritalarına kadar uzanan teknik bir müfredattır:
 
-1.  **[LLM Security Nedir?](https://github.com/fevziege/LLM-Security-Nedir)**  
+1.  **[LLM Security Nedir?](https://github.com/fevziegeyurtsevenler/LLM-Security-Nedir)**  
     *Yapay zeka güvenliğinin temelleri ve yeni saldırı yüzeylerini keşfedin.*
     
-2.  **[Prompt Injection Nedir?](https://github.com/fevziege/Prompt-Injection-Nedir)**  
+2.  **[Prompt Injection Nedir?](https://github.com/fevziegeyurtsevenler/Prompt-Injection-Nedir)**  
     *En yaygın LLM zafiyetinin teknik detayları ve OWASP LLM01 incelemesi.*
     
-3.  **[OWASP LLM Top 10 Türkçe Rehberi](https://github.com/fevziege/OWASP-LLM-TOP-10-TURKCE)**  
+3.  **[OWASP LLM Top 10 Türkçe Rehberi](https://github.com/fevziegeyurtsevenler/OWASP-LLM-TOP-10-TURKCE)**  
     *En kritik 10 güvenlik riskinin kapsamlı dökümü ve savunma stratejileri.*
     
-4.  **[RAG Security Nedir?](https://github.com/fevziege/RAG-Security-Nedir)**  
+4.  **[RAG Security Nedir?](https://github.com/fevziegeyurtsevenler/RAG-Security-Nedir)**  
     *Vektör veritabanlarının zayıf noktaları ve RAG poisoning saldırıları.*
     
-5.  **[AI Agent Security Nedir?](https://github.com/fevziege/AI-Agent-Security-Nedir)**  
+5.  **[AI Agent Security Nedir?](https://github.com/fevziegeyurtsevenler/AI-Agent-Security-Nedir)**  
     *Otonom yapay zeka ajanları ve MCP (Model Context Protocol) güvenliği.*
     
-6.  **[LLM Security Roadmap 2026](https://github.com/fevziege/LLM-Security-Roadmap)**  
+6.  **[LLM Security Roadmap 2026](https://github.com/fevziegeyurtsevenler/LLM-Security-Roadmap)**  
     *Sıfırdan uzmanlığa giden kapsamlı öğrenme yol haritası.*
     
-7.  **[AI Security Öğrenme Rehberi](https://github.com/fevziege/AI-Security-Ogrenme-Rehberi)**  
+7.  **[AI Security Öğrenme Rehberi](https://github.com/fevziegeyurtsevenler/AI-Security-Ogrenme-Rehberi)**  
     *Kariyer hedefleri, bug bounty süreçleri ve Türkiye pazarı fırsatları.*
 
 ---
