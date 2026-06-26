@@ -13,6 +13,7 @@
   <a href="https://altaysec.com.tr"><img src="https://img.shields.io/badge/web-altaysec.com.tr-8b5cf6"></a>
   <a href="https://ai.altaysec.com.tr"><img src="https://img.shields.io/badge/akademi-ai.altaysec.com.tr-22c55e"></a>
   <a href="https://deney.altaysec.com.tr"><img src="https://img.shields.io/badge/deney-100%20ajan%20·%200%20ihanet-f43f5e"></a>
+  <a href="https://huggingface.co/AltaySec"><img src="https://img.shields.io/badge/🤗%20HuggingFace-2%20veri%20seti-ff9d00"></a>
   <a href="https://www.linkedin.com/company/altaysec/"><img src="https://img.shields.io/badge/LinkedIn-AltaySec-0a66c2"></a>
 </p>
 
@@ -63,11 +64,20 @@ Temel kavramlardan otonom ajan güvenliğine uzanan, sıfırdan uzmanlığa bir 
 
 - **[DENEY: 100 Yapay Zeka, 0 İhanet](https://deney.altaysec.com.tr)** — çok-ajanlı davranış deneyi. Üç model katmanı (haiku/sonnet/opus), 11 tur, tek koşum, ham çıktı olduğu gibi raporlandı. *Söylem–eylem kopukluğu* üzerine ampirik bir bulgu; sayfada ayrı bir **"Dürüstlük & Sınırlar"** bölümüyle birlikte. ([teknik makale](https://altaysec.com.tr/arastirmalar/100-ajan-davranis-deneyi.html))
 - **[Tüm araştırma makaleleri](https://altaysec.com.tr/arastirmalar/)** — Türkçe prompt injection kalıpları, OWASP LLM Top 10, Türkiye AI güvenlik saha haritası ve daha fazlası.
-- **Agent-vs-agent veri motoru** *(özel Ar-Ge)* — saldırı/savunma senaryolarını kapalı bir arenada koşturup Türkçe niyet ve injection verisi topluyoruz; bulgular yukarıdaki deney ve araştırma makalelerinde yayımlanıyor.
+- **Agent-vs-agent veri motoru** *(özel Ar-Ge)* — saldırı/savunma senaryolarını kapalı bir arenada koşturup Türkçe niyet ve injection verisi topluyoruz; bulgular yukarıdaki deney, araştırma makaleleri ve aşağıdaki açık veri setlerinde yayımlanıyor.
 
 ---
 
-## 🛠️ 4) Açık Kaynak Araçlar
+## 📊 4) Açık Veri Setleri (Hugging Face)
+
+Türkçe LLM güvenliği için topluluğa açık, **CC-BY-4.0** lisanslı veri setleri — model eğitimi, benchmark ve araştırma için kaynak:
+
+- **[turkish-llm-injection](https://huggingface.co/datasets/AltaySec/turkish-llm-injection)** *(v0.2)* — Türkçe-öncelikli, kategorize prompt injection veri seti. **300 payload**, 12 saldırı kategorisi × 25, **OWASP LLM Top 10 (2025) eşlemeli**. Türkçe'ye özgü vektörler: morfolojik bypass (çekim eki sömürüsü), code-switching, kültürel/kurumsal otorite baskısı (AFAD, GİB, SGK, e-Devlet… tehdit diliyle).
+- **[altayduel-transcripts](https://huggingface.co/datasets/AltaySec/altayduel-transcripts)** *(v0.2)* — agent-vs-agent çok-turlu prompt injection düello transkriptleri. **2.594 temiz düello** (1–8 round, kırmızı↔mavi) + **439 başarılı saldırı** (`win_signal` ile etiketli), %57 Türkçe. Tek-payload setlerinin ötesinde, gerçek çok-turlu konuşma dinamiği.
+
+---
+
+## 🛠️ 5) Açık Kaynak Araçlar
 
 - **[tr-pii-detect](https://github.com/fevziegeyurtsevenler/tr-pii-detect)** — Türkiye'ye özgü PII (TC, IBAN, VKN, kart, telefon, plaka) için algoritma-doğrulamalı tespit ve maskeleme. Sıfır bağımlılık, KVKK uyumlu.
 - **[OWASP-LLM-TOP-10-TURKCE](https://github.com/fevziegeyurtsevenler/OWASP-LLM-TOP-10-TURKCE)** — OWASP LLM Top 10 2025 Türkçe kapsamlı rehber.
@@ -99,6 +109,7 @@ Bu projeler açık kaynaklıdır. Bir hata görürsen ya da eklemek istediğin t
 * 🌍 **Web:** [altaysec.com.tr](https://altaysec.com.tr)
 * 🧪 **Akademi (uygulamalı):** [ai.altaysec.com.tr](https://ai.altaysec.com.tr)
 * 🔬 **Deney (canlı sonuçlar):** [deney.altaysec.com.tr](https://deney.altaysec.com.tr)
+* 📊 **Veri setleri (Hugging Face):** [huggingface.co/AltaySec](https://huggingface.co/AltaySec)
 * 📚 **Tüm araştırmalar:** [altaysec.com.tr/arastirmalar](https://altaysec.com.tr/arastirmalar/)
 * 👔 **LinkedIn (Kurum):** [linkedin.com/company/altaysec](https://www.linkedin.com/company/altaysec/)
 * 👤 **LinkedIn (Kişisel):** [linkedin.com/in/fevziegeyurtsevenler](https://www.linkedin.com/in/fevziegeyurtsevenler)
