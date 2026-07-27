@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Bu ekosistemi kullandıysanız lütfen atıf verin."
+title: "Türkçe Yapay Zeka Güvenliği Ekosistemi (AltaySec)"
+authors:
+  - family-names: Yurtsevenler
+    given-names: Fevzi Ege
+    orcid: "https://orcid.org/0009-0008-6518-8944"
+    affiliation: AltaySec
+year: 2026
+doi: "10.5281/zenodo.20681557"
+url: "https://github.com/fevziegeyurtsevenler/LLM-Security-Turkiye"
+keywords: [llm-security, prompt-injection, turkish-nlp, guardrails, ai-red-team, kvkk, mcp-security]

@@ -1,126 +1,177 @@
-<p align="center">
-  <a href="https://altaysec.com.tr">
-    <img src="https://altaysec.com.tr/logo.jpg" alt="AltaySec — Türkiye'nin Yapay Zeka Güvenliği Ekosistemi" width="120">
-  </a>
-</p>
+# 🛡️ Türkçe Yapay Zeka Güvenliği Ekosistemi
 
-<p align="center">
-  <strong><a href="https://altaysec.com.tr">AltaySec</a></strong> — Türkiye'nin Yapay Zeka Güvenliği Ekosistemi<br>
-  <sub>Kurucu &amp; Seri Yazarı: <a href="https://altaysec.com.tr/hakkimizda.html">Fevzi Ege Yurtsevenler</a> · Yapay Zeka Güvenliği Araştırmacısı</sub>
-</p>
+**Prompt injection, jailbreak, guardrail değerlendirmesi, KVKK/PII maskeleme, RAG ve otonom ajan (MCP) güvenliği, AI red-teaming** üzerine Türkçe açık kaynak araçlar, veri setleri, ölçütler ve eğitim serileri.
 
-<p align="center">
-  <a href="https://altaysec.com.tr"><img src="https://img.shields.io/badge/web-altaysec.com.tr-8b5cf6"></a>
-  <a href="https://ai.altaysec.com.tr"><img src="https://img.shields.io/badge/akademi-ai.altaysec.com.tr-22c55e"></a>
-  <a href="https://deney.altaysec.com.tr"><img src="https://img.shields.io/badge/deney-100%20ajan%20·%200%20ihanet-f43f5e"></a>
-  <a href="https://huggingface.co/AltaySec"><img src="https://img.shields.io/badge/🤗%20HuggingFace-2%20veri%20seti-ff9d00"></a>
-  <a href="https://www.linkedin.com/company/altaysec/"><img src="https://img.shields.io/badge/LinkedIn-AltaySec-0a66c2"></a>
+Bu repo, dağınık çalışmaları tek yerde toplayan **açık kaynak bir Türkçe yapay zeka güvenliği ekosisteminin** giriş noktasıdır — rehberler, akademi, araştırma deneyleri, Hugging Face veri setleri/modeli ve 23+ araç buradan erişilebilir.
+
+<p align="left">
+<a href="https://altaysec.com.tr"><img src="https://img.shields.io/badge/🌐%20Web-altaysec.com.tr-2563eb"></a>
+<a href="https://ai.altaysec.com.tr"><img src="https://img.shields.io/badge/🎓%20Akademi-ai.altaysec.com.tr-7c3aed"></a>
+<a href="https://altaysec.com.tr/acik-kaynak"><img src="https://img.shields.io/badge/🧰%20Açık%20Kaynak%20Araçlar-23%2B-16a34a"></a>
+<a href="https://huggingface.co/fevziegeyurtsevenler"><img src="https://img.shields.io/badge/🤗%20HuggingFace-20%20veri%20seti%20%2B%201%20model-ff9d00"></a>
+<a href="https://doi.org/10.5281/zenodo.20681557"><img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20681557-1f6feb"></a>
+<a href="https://orcid.org/0009-0008-6518-8944"><img src="https://img.shields.io/badge/ORCID-0009--0008--6518--8944-a6ce39"></a>
+<a href="https://www.linkedin.com/in/fevziegeyurtsevenler/"><img src="https://img.shields.io/badge/LinkedIn-Fevzi%20Ege%20Yurtsevenler-0a66c2"></a>
 </p>
 
 ---
 
-# Türkçe Yapay Zeka Güvenliği Çatısı 🛡️
+## 🚀 Nereden başlamalı?
 
-Yapay zeka ve Büyük Dil Modelleri (LLM) dünyayı değiştirirken, beraberinde yeni ve karmaşık güvenlik zafiyetleri getiriyor. Bu depo, **Türkçe yapay zeka güvenliği** için tek bir başvuru noktası olmayı amaçlıyor: sıfırdan başlayan bir **rehber serisi**, **uygulamalı akademi**, **araştırma & deneyler** ve **açık kaynak araçlar** — hepsi ücretsiz ve topluluk için.
+| Amacın | Git |
+|---|---|
+| **Öğrenmek istiyorum** | [Öğrenme Yolu](#-1-öğrenme-yolu) + [Akademi](#-2-akademi) |
+| **Araç / ölçüt arıyorum** | [Açık Kaynak Araçlar](#-5-açık-kaynak-araçlar) — [uncloak (canlı demo)](https://fevziegeyurtsevenler.github.io/uncloak) · [guardrail-arena](https://github.com/fevziegeyurtsevenler/guardrail-arena) |
+| **Beni/işi değerlendiriyorum** | [Yazar & Doğrulanabilir Krediler](#-yazar-hakkında) · [Bulgular](#-öne-çıkan-bulgular) |
 
-> 🆕 **Yeni — [DENEY: 100 Yapay Zeka, 0 İhanet](https://deney.altaysec.com.tr):** 100 otonom ajanı kapalı bir arenada koşturduk. 647 ajan mesajı, 72 manipülasyon/ihanet söylemi, **gerçekleşen ihanet: 0**. Modeller akıcı bir Makyavelist dil üretti ama ona uygun eylemi üretmedi. Çıkan tek dürüst tez: *söylem, eylemin kanıtı değildir.*
-
----
-
-## 🗺️ 1) Öğrenme Yolu — Rehber Serisi
-
-Temel kavramlardan otonom ajan güvenliğine uzanan, sıfırdan uzmanlığa bir Türkçe müfredat:
-
-1. **[LLM Security Nedir?](https://github.com/fevziegeyurtsevenler/LLM-Security-Nedir)**
-   *Yapay zeka güvenliğinin temelleri ve yeni saldırı yüzeyleri.*
-
-2. **[Prompt Injection Nedir?](https://github.com/fevziegeyurtsevenler/Prompt-Injection-Nedir)**
-   *En yaygın LLM zafiyeti — OWASP LLM01 derinlemesine inceleme.*
-
-3. **[OWASP LLM Top 10 (Türkçe)](https://github.com/fevziegeyurtsevenler/OWASP-LLM-TOP-10-TURKCE)**
-   *En kritik 10 güvenlik riski ve savunma stratejileri.*
-
-4. **[RAG Security Nedir?](https://github.com/fevziegeyurtsevenler/RAG-Security-Nedir)**
-   *Vektör veritabanlarının zayıf noktaları ve RAG poisoning saldırıları.*
-
-5. **[AI Agent Security Nedir?](https://github.com/fevziegeyurtsevenler/AI-Agent-Security-Nedir)**
-   *Otonom ajanlar ve MCP (Model Context Protocol) güvenliği.*
-
-6. **[LLM Security Roadmap 2026](https://github.com/fevziegeyurtsevenler/LLM-Security-Roadmap)**
-   *Sıfırdan uzmanlığa giden kapsamlı öğrenme yol haritası.*
-
-7. **[AI Security Öğrenme Rehberi](https://github.com/fevziegeyurtsevenler/AI-Security-Ogrenme-Rehberi)**
-   *Kariyer hedefleri, bug bounty süreçleri ve Türkiye pazarı fırsatları.*
+**İçindekiler:** [Öğrenme Yolu](#-1-öğrenme-yolu) · [Akademi](#-2-akademi) · [Araştırma](#-3-araştırma--deneyler) · [Bulgular](#-öne-çıkan-bulgular) · [Veri Setleri & Model](#-4-hugging-face-veri-setleri--model) · [Araçlar](#-5-açık-kaynak-araçlar) · [Yazar](#-yazar-hakkında) · [Katkı](#-katkı) · [Bağlantılar](#-bağlantılar)
 
 ---
 
-## 🧪 2) Uygulamalı Eğitim — LLM Security Akademi
+## 🧪 Canlı Demolar
 
-**[ai.altaysec.com.tr](https://ai.altaysec.com.tr)** — teoriyi okuduktan sonra elini kirletmek isteyenler için: yapay zeka güvenliği üzerine **uygulamalı lab ve modüllerle** ücretsiz, Türkçe bir akademi. Prompt injection'dan ajan güvenliğine, doğrudan tarayıcıda çalışan pratik senaryolarla öğren.
+- **[uncloak](https://fevziegeyurtsevenler.github.io/uncloak)** — gizli/görünmez prompt injection tarayıcı (tarayıcıda çalışır)
+- **[guardrail-arena](https://github.com/fevziegeyurtsevenler/guardrail-arena)** — iki-eksenli EN+TR guardrail ölçütü (canlı grafikler repo sayfasında)
+- **[turkish-pii-redactor](https://github.com/fevziegeyurtsevenler/turkish-pii-redactor)** — tarayıcıda KVKK/PII maskeleme demosu
+
+---
+
+## 📈 Öne Çıkan Bulgular
+
+Alıntılanabilir, tekrar üretilebilir sayılar — her biri kaynak veri setine/araca bağlı. Yöntem ve sınıf dağılımları ilgili repo/veri seti kartındadır.
+
+- **guardrail-arena:** Test edilen guard modelleri, güvenlikle ilgili (zararsız ama hassas) metnin **%40–70'ini aşırı-reddediyor**; `jackhhao/jailbreak-classifier` bu sette Türkçe saldırıların **%83'ünü kaçırdı**. → [guardrail-arena](https://huggingface.co/datasets/fevziegeyurtsevenler/guardrail-arena)
+- **turkish-over-refusal-set:** ProtectAI guard'ı zararsız Türkçe isteklerin **%59'unu** reddederken aynı setin İngilizcesinde bu oran **%0.8**. → [turkish-over-refusal-set](https://huggingface.co/datasets/fevziegeyurtsevenler/turkish-over-refusal-set)
+- **turkish-casefold-evasion:** Türkçe büyük/küçük harf katlaması (`"İGNORE".lower() != "ignore"`) naif kelime filtrelerinde **%94.6 bypass**. → [turkish-casefold-evasion](https://huggingface.co/datasets/fevziegeyurtsevenler/turkish-casefold-evasion)
+- **guard-blindspots-tr:** 248 Türkçe prompt injection, popüler açık guard modellerinden geçirilerek kör noktalar ölçüldü. → [guard-blindspots-tr](https://huggingface.co/datasets/fevziegeyurtsevenler/guard-blindspots-tr)
+- **skills-in-the-wild:** AI ajan eklentilerinin (skills) açık, tekrar üretilebilir bir denetimi — **3168 eklenti** tarandı. → [skills-in-the-wild](https://huggingface.co/datasets/fevziegeyurtsevenler/skills-in-the-wild)
+- **dataset-injection-scan-study:** Popüler HF veri setlerinde gizli injection taraması — **~17k satır** incelendi. → [dataset-injection-scan-study](https://huggingface.co/datasets/fevziegeyurtsevenler/dataset-injection-scan-study)
+
+---
+
+## 📚 1) Öğrenme Yolu
+
+Sıfırdan ileri seviyeye Türkçe açık kaynak rehber serisi:
+
+1. [LLM-Security-Nedir](https://github.com/fevziegeyurtsevenler/LLM-Security-Nedir) — Temeller
+2. [Prompt-Injection-Nedir](https://github.com/fevziegeyurtsevenler/Prompt-Injection-Nedir) — En kritik zafiyet
+3. [OWASP-LLM-TOP-10-TURKCE](https://github.com/fevziegeyurtsevenler/OWASP-LLM-TOP-10-TURKCE) — OWASP LLM Top 10 (2025) Türkçe çeviri/rehber
+4. [RAG-Security-Nedir](https://github.com/fevziegeyurtsevenler/RAG-Security-Nedir) — RAG mimarilerinde güvenlik
+5. [AI-Agent-Security-Nedir](https://github.com/fevziegeyurtsevenler/AI-Agent-Security-Nedir) — Otonom ajan (MCP) güvenliği
+6. [LLM-Security-Roadmap](https://github.com/fevziegeyurtsevenler/LLM-Security-Roadmap) — Yol haritası
+7. [AI-Security-Ogrenme-Rehberi](https://github.com/fevziegeyurtsevenler/AI-Security-Ogrenme-Rehberi) — Toplu öğrenme rehberi
+
+---
+
+## 🎓 2) Akademi
+
+Uygulamalı, laboratuvar tabanlı Türkçe LLM güvenliği eğitimi:
+**[ai.altaysec.com.tr](https://ai.altaysec.com.tr)** — öğrenme yolları, modüller ve uygulamalı laboratuvarlar.
 
 ---
 
 ## 🔬 3) Araştırma & Deneyler
 
-- **[DENEY: 100 Yapay Zeka, 0 İhanet](https://deney.altaysec.com.tr)** — çok-ajanlı davranış deneyi. Üç model katmanı (haiku/sonnet/opus), 11 tur, tek koşum, ham çıktı olduğu gibi raporlandı. *Söylem–eylem kopukluğu* üzerine ampirik bir bulgu; sayfada ayrı bir **"Dürüstlük & Sınırlar"** bölümüyle birlikte. ([teknik makale](https://altaysec.com.tr/arastirmalar/100-ajan-davranis-deneyi.html))
-- **[Tüm araştırma makaleleri](https://altaysec.com.tr/arastirmalar/)** — Türkçe prompt injection kalıpları, OWASP LLM Top 10, Türkiye AI güvenlik saha haritası ve daha fazlası.
-- **Agent-vs-agent veri motoru** *(özel Ar-Ge)* — saldırı/savunma senaryolarını kapalı bir arenada koşturup Türkçe niyet ve injection verisi topluyoruz; bulgular yukarıdaki deney, araştırma makaleleri ve aşağıdaki açık veri setlerinde yayımlanıyor.
+- **🆕 En yeni:** guardrail-arena, uncloak, turkish-casefold-evasion ve turkish-over-refusal-set gibi ampirik ölçütler — sonuçlar [Bulgular](#-öne-çıkan-bulgular) bölümünde, kaynak-linkli.
+- **100 Ajan Deneyi:** Çok-ajanlı işbirliği/ihanet deneyi — sonuçlar ve **açık dürüstlük/sınırlar** notu ile. Deney kayıtları: [altayduel-transcripts](https://huggingface.co/datasets/fevziegeyurtsevenler) (profil).
+- **Araştırma yazıları:** [altaysec.com.tr/arastirmalar](https://altaysec.com.tr/arastirmalar)
+- **agent-vs-agent deneyleri:** kayıtlar açık veri setlerinde incelenebilir (transcripts / injection setleri — [HF profili](https://huggingface.co/fevziegeyurtsevenler)).
 
 ---
 
-## 📊 4) Açık Veri Setleri (Hugging Face)
+## 🤗 4) Hugging Face: Veri Setleri & Model
 
-Türkçe LLM güvenliği için topluluğa açık, **CC-BY-4.0** lisanslı veri setleri — model eğitimi, benchmark ve araştırma için kaynak:
+Tümü **[huggingface.co/fevziegeyurtsevenler](https://huggingface.co/fevziegeyurtsevenler)** altında — **20 veri seti + 1 model** (profildeki koleksiyonlara bakın).
 
-- **[turkish-llm-injection](https://huggingface.co/datasets/AltaySec/turkish-llm-injection)** *(v0.2)* — Türkçe-öncelikli, kategorize prompt injection veri seti. **300 payload**, 12 saldırı kategorisi × 25, **OWASP LLM Top 10 (2025) eşlemeli**. Türkçe'ye özgü vektörler: morfolojik bypass (çekim eki sömürüsü), code-switching, kültürel/kurumsal otorite baskısı (AFAD, GİB, SGK, e-Devlet… tehdit diliyle).
-- **[altayduel-transcripts](https://huggingface.co/datasets/AltaySec/altayduel-transcripts)** *(v0.2)* — agent-vs-agent çok-turlu prompt injection düello transkriptleri. **2.594 temiz düello** (1–8 round, kırmızı↔mavi) + **439 başarılı saldırı** (`win_signal` ile etiketli), %57 Türkçe. Tek-payload setlerinin ötesinde, gerçek çok-turlu konuşma dinamiği.
+**Model**
+- **[turkish-prompt-injection-detector](https://huggingface.co/fevziegeyurtsevenler/turkish-prompt-injection-detector)** — Türkçe prompt injection sınıflandırıcı. Kendi Türkçe injection test setinde **F1 ≈ 0.94** (değerlendirme seti ve sınıf dağılımı model kartında; genel amaçlı doğruluk iddiası değildir).
 
----
+**Öne çıkan veri setleri**
+- [guardrail-arena](https://huggingface.co/datasets/fevziegeyurtsevenler/guardrail-arena) — iki-eksenli, çok-dilli guardrail ölçütü
+- [guard-blindspots-tr](https://huggingface.co/datasets/fevziegeyurtsevenler/guard-blindspots-tr) — 248 Türkçe injection, açık guard modellerinden geçirilmiş
+- [turkish-over-refusal-set](https://huggingface.co/datasets/fevziegeyurtsevenler/turkish-over-refusal-set) — XSTest-tarzı aşırı-red değerlendirmesi (TR+EN)
+- [turkish-casefold-evasion](https://huggingface.co/datasets/fevziegeyurtsevenler/turkish-casefold-evasion) — Türkçe harf-katlaması kaçırma
+- [turkish-prompt-injection](https://huggingface.co/datasets/fevziegeyurtsevenler/turkish-prompt-injection) — 107 Türkçe injection/jailbreak kalıbı
+- [multilingual-prompt-injection](https://huggingface.co/datasets/fevziegeyurtsevenler/multilingual-prompt-injection) — 217 etiketli teknik (TR+EN)
+- [turkish-pii-corpus](https://huggingface.co/datasets/fevziegeyurtsevenler/turkish-pii-corpus) & [turkish-pii-patterns-kvkk](https://huggingface.co/datasets/fevziegeyurtsevenler/turkish-pii-patterns-kvkk) — KVKK/PII
+- [invisible-unicode-injection](https://huggingface.co/datasets/fevziegeyurtsevenler/invisible-unicode-injection) · [mcp-tool-poisoning](https://huggingface.co/datasets/fevziegeyurtsevenler/mcp-tool-poisoning) · [skills-in-the-wild](https://huggingface.co/datasets/fevziegeyurtsevenler/skills-in-the-wild) · [dataset-injection-scan-study](https://huggingface.co/datasets/fevziegeyurtsevenler/dataset-injection-scan-study)
 
-## 🛠️ 5) Açık Kaynak Araçlar
-
-- **[tr-pii-detect](https://github.com/fevziegeyurtsevenler/tr-pii-detect)** — Türkiye'ye özgü PII (TC, IBAN, VKN, kart, telefon, plaka) için algoritma-doğrulamalı tespit ve maskeleme. Sıfır bağımlılık, KVKK uyumlu.
-- **[OWASP-LLM-TOP-10-TURKCE](https://github.com/fevziegeyurtsevenler/OWASP-LLM-TOP-10-TURKCE)** — OWASP LLM Top 10 2025 Türkçe kapsamlı rehber.
-- **[AltaySec-Akademi](https://github.com/fevziegeyurtsevenler/AltaySec-Akademi)** — ücretsiz, oyunlaştırılmış Türkçe pentest akademisi (repo).
-
----
-
-## 👨‍💻 Yazar Hakkında
-
-**Fevzi Ege Yurtsevenler**
-*Yapay Zeka Güvenliği Araştırmacısı | AltaySec Kurucusu*
-
-Türkiye'de yapay zeka güvenliği (**AI Security**) ve Büyük Dil Modelleri (**LLM Security**) alanındaki öncü araştırmacılardan biri. **AltaySec**'in kurucusu olarak yerli siber güvenlik topluluğunu yapay zeka çağının tehditlerine hazırlamayı misyon edinmiştir.
-
-### 🌟 Öne Çıkan Çalışmalar ve Uzmanlık
-* **Türkçe Kaynak:** LLM Security, Prompt Injection ve AI Agent güvenliği üzerine Türkiye'nin en kapsamlı Türkçe açık kaynak teknik dökümantasyon ve eğitim serilerinden birini oluşturdu.
-* **Akademik & Sektörel Köprü:** Gazi Üniversitesi başta olmak üzere kurumlarda prompt injection ve yapay zeka güvenliği üzerine eğitimler verdi.
-* **Aktif Araştırma:** Otonom yapay zeka ajanları, **MCP (Model Context Protocol)** güvenliği ve **RAG** mimarilerindeki zafiyetler üzerine aktif araştırma ve exploit geliştirme.
-* **Ekosistem Mimarı:** AltaySec çatısı altında, Türkiye'nin yapay zeka tabanlı sistemleri güvenle benimsemesi için stratejik rehberlik ve teknik çözüm yolları üretir.
+**ve 8+ ek veri seti** — tümü için [profile bakın](https://huggingface.co/fevziegeyurtsevenler).
 
 ---
 
-## 🤝 Katkıda Bulunma
+## 🧰 5) Açık Kaynak Araçlar
 
-Bu projeler açık kaynaklıdır. Bir hata görürsen ya da eklemek istediğin teknik detay varsa **PR (Pull Request)** göndermekten çekinme. Faydalı bulduysan bir ⭐ ulaşmasına çok yardımcı olur.
+> **Tüm açık kaynak araçların güncel listesi (23+):** **[altaysec.com.tr/acik-kaynak](https://altaysec.com.tr/acik-kaynak)** — kanonik index.
 
-## 🔗 Bağlantıda Kalın
+Öne çıkan araçlar (her biri tekrar üretilebilir bir bulguya bağlı):
 
-* 🌍 **Web:** [altaysec.com.tr](https://altaysec.com.tr)
-* 🧪 **Akademi (uygulamalı):** [ai.altaysec.com.tr](https://ai.altaysec.com.tr)
-* 🔬 **Deney (canlı sonuçlar):** [deney.altaysec.com.tr](https://deney.altaysec.com.tr)
-* 📊 **Veri setleri (Hugging Face):** [huggingface.co/AltaySec](https://huggingface.co/AltaySec)
-* 📚 **Tüm araştırmalar:** [altaysec.com.tr/arastirmalar](https://altaysec.com.tr/arastirmalar/)
-* 👔 **LinkedIn (Kurum):** [linkedin.com/company/altaysec](https://www.linkedin.com/company/altaysec/)
-* 👤 **LinkedIn (Kişisel):** [linkedin.com/in/fevziegeyurtsevenler](https://www.linkedin.com/in/fevziegeyurtsevenler)
-* 📧 **İletişim:** info@altaysec.com.tr
+- **[uncloak](https://github.com/fevziegeyurtsevenler/uncloak)** — gizli/görünmez injection tarayıcı · **[canlı demo](https://fevziegeyurtsevenler.github.io/uncloak)**
+- **[guardrail-arena](https://github.com/fevziegeyurtsevenler/guardrail-arena)** — iki-eksenli EN+TR guardrail ölçütü · bulgu: guard'lar güvenlik-yakını metnin **%40–70'ini** aşırı-reddediyor, jackhhao Türkçe saldırıların **%83'ünü** kaçırıyor
+- **[turkish-casefold-evasion](https://github.com/fevziegeyurtsevenler/turkish-casefold-evasion)** — Türkçe harf-katlaması ile naif filtrelerde **%94.6 bypass**
+- **[turkish-over-refusal-set](https://github.com/fevziegeyurtsevenler/turkish-over-refusal-set)** — ProtectAI zararsız Türkçe'nin **%59'unu** reddediyor (EN **%0.8**)
+- **[hf-dataset-scan](https://github.com/fevziegeyurtsevenler/hf-dataset-scan)** — veri seti gizli-injection tarayıcı + CI (~17k satırlık açık çalışma)
+- **[skills-in-the-wild](https://github.com/fevziegeyurtsevenler/skills-in-the-wild)** — AI ajan eklentileri denetimi (3168 eklenti)
+- **[turkish-pii-redactor](https://github.com/fevziegeyurtsevenler/turkish-pii-redactor)** — tarayıcıda KVKK/PII maskeleme
+- **[tr-pii-detect](https://github.com/fevziegeyurtsevenler/tr-pii-detect)** · **[lethal-trifecta-lint](https://github.com/fevziegeyurtsevenler/lethal-trifecta-lint)** · **[agent-security-ci](https://github.com/fevziegeyurtsevenler/agent-security-ci)** · **[mcp-security-checklist](https://github.com/fevziegeyurtsevenler/mcp-security-checklist)** · **[guard-blindspots-tr](https://github.com/fevziegeyurtsevenler/guard-blindspots-tr)** · **[prompt-injection-corpus](https://github.com/fevziegeyurtsevenler/prompt-injection-corpus)** · **[owasp-agentic-skills-top10-tr](https://github.com/fevziegeyurtsevenler/owasp-agentic-skills-top10-tr)**
+
+---
+
+## 👤 Yazar Hakkında
+
+**Fevzi Ege Yurtsevenler** — AltaySec kurucusu. Türkçe yapay zeka güvenliği üzerine açık kaynak araçlar, veri setleri ve eğitim serileri üreten bağımsız araştırmacı. Türkçe LLM güvenliği için **7 bölümlük açık kaynak rehber serisi, uygulamalı akademi, 23+ açık kaynak araç ve 20 Hugging Face veri seti + 1 model** yayımladı.
+
+### ✅ Doğrulanabilir Krediler
+
+- **OWASP GenAI Security Project** — katkıları merge edilmiş katkıcı
+- **OpenAI Bug Bounty** — kabul edilmiş araştırmacı
+- **Yayın (DOI):** [10.5281/zenodo.20681557](https://doi.org/10.5281/zenodo.20681557)
+- **ORCID:** [0009-0008-6518-8944](https://orcid.org/0009-0008-6518-8944)
+- **Kitap:** *LLM Güvenliği: Saldırı ve Savunma* — [Google Play](https://play.google.com/store/books/details?id=-_HxEQAAQBAJ) · [Apple Books](https://books.apple.com/us/book/llm-g%C3%BCvenli%C4%9Fi-sald%C4%B1r%C4%B1-ve-savunma/id6787995800)
+- **Türkiye Siber Vatan** katılımcısı
+- **BlueDot Impact** katılımcısı
+- Gazi Üniversitesi eğitimleri / seminerleri
 
 ---
 
-<p align="center">
-  <sub>© 2026 <strong>AltaySec</strong> · Türkiye'nin yapay zeka güvenliği öncülerinden<br>
-  Kurucu: <strong>Fevzi Ege Yurtsevenler</strong> · LLM Security Araştırmacısı · Ankara, Türkiye</sub>
-</p>
+## 📌 Atıf / Citation
+
+Bu ekosistemi kullandıysanız lütfen atıf verin:
+
+```bibtex
+@misc{yurtsevenler_altaysec,
+  author       = {Yurtsevenler, Fevzi Ege},
+  title        = {Türkçe Yapay Zeka Güvenliği Ekosistemi (AltaySec)},
+  year         = {2026},
+  doi          = {10.5281/zenodo.20681557},
+  url          = {https://doi.org/10.5281/zenodo.20681557},
+  note         = {ORCID: 0009-0008-6518-8944}
+}
+```
 
 ---
-*AltaySec — Türkiye'nin LLM Güvenlik Ekosistemi*
+
+## 🇬🇧 English
+
+Open-source, **Turkish-first AI/LLM security**: 7 guides, an applied academy, 20+ Hugging Face datasets, a trained detector (`turkish-prompt-injection-detector`, F1≈0.94 on its own Turkish test set) and 23+ tools. Highlights include **[uncloak](https://fevziegeyurtsevenler.github.io/uncloak)** (hidden-injection scanner, live) and **[guardrail-arena](https://github.com/fevziegeyurtsevenler/guardrail-arena)** (two-axis EN+TR guardrail benchmark; finding: guards over-refuse 40–70% of security-adjacent text, `jackhhao/jailbreak-classifier` misses 83% of Turkish attacks). Full tool index: **[altaysec.com.tr/acik-kaynak](https://altaysec.com.tr/acik-kaynak)**.
+
+---
+
+## 🤝 Katkı
+
+Katkılar memnuniyetle karşılanır. Dahil edilme ölçütü: Türkçe yapay zeka güvenliğiyle ilgili, açık kaynak, bakımı yapılan ve iddiası tekrar üretilebilir çalışmalar. Öneri/düzeltme için Issue açın veya PR gönderin.
+
+---
+
+## 🔗 Bağlantılar
+
+- 🌐 Web: [altaysec.com.tr](https://altaysec.com.tr)
+- 🎓 Akademi: [ai.altaysec.com.tr](https://ai.altaysec.com.tr)
+- 🧰 Açık kaynak araçlar (23+): [altaysec.com.tr/acik-kaynak](https://altaysec.com.tr/acik-kaynak)
+- 🤗 Hugging Face: [huggingface.co/fevziegeyurtsevenler](https://huggingface.co/fevziegeyurtsevenler)
+- 💼 LinkedIn: [Fevzi Ege Yurtsevenler](https://www.linkedin.com/in/fevziegeyurtsevenler/)
+- 🧾 DOI: [10.5281/zenodo.20681557](https://doi.org/10.5281/zenodo.20681557) · ORCID: [0009-0008-6518-8944](https://orcid.org/0009-0008-6518-8944)
+
+---
+
+<sub>© 2026 AltaySec · Türkçe yapay zeka güvenliği için açık kaynak araçlar ve veri setleri · Kurucu: Fevzi Ege Yurtsevenler · Ankara, Türkiye</sub>
