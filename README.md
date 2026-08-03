@@ -175,3 +175,10 @@ Katkılar memnuniyetle karşılanır. Dahil edilme ölçütü: Türkçe yapay ze
 ---
 
 <sub>© 2026 AltaySec · Türkçe yapay zeka güvenliği için açık kaynak araçlar ve veri setleri · Kurucu: Fevzi Ege Yurtsevenler · Ankara, Türkiye</sub>
+
+---
+
+## İlgili AltaySec Kaynakları
+
+- 📖 [AI Security Öğrenme Rehberi — Sıfırdan Uzmanlığa](https://altaysec.com.tr/arastirmalar/ai-security-ogrenme-rehberi) — konunun derinlemesine Türkçe analizi
+- 🌐 [AltaySec Araştırmalar](https://altaysec.com.tr/arastirmalar/) — Türkçe yapay zekâ güvenliği yazıları
