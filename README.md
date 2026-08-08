@@ -1,5 +1,7 @@
 # 🛡️ Türkçe Yapay Zeka Güvenliği Ekosistemi
 
+*Open-source Turkish AI/LLM security ecosystem: tools, guides, benchmarks and datasets.*
+
 **Prompt injection, jailbreak, guardrail değerlendirmesi, KVKK/PII maskeleme, RAG ve otonom ajan (MCP) güvenliği, AI red-teaming** üzerine Türkçe açık kaynak araçlar, veri setleri, ölçütler ve eğitim serileri.
 
 Bu repo, dağınık çalışmaları tek yerde toplayan **açık kaynak bir Türkçe yapay zeka güvenliği ekosisteminin** giriş noktasıdır — rehberler, akademi, araştırma deneyleri, Hugging Face veri setleri/modeli ve 23+ araç buradan erişilebilir.
@@ -112,8 +114,19 @@ Tümü **[huggingface.co/fevziegeyurtsevenler](https://huggingface.co/fevziegeyu
 - **[turkish-over-refusal-set](https://github.com/fevziegeyurtsevenler/turkish-over-refusal-set)** — ProtectAI zararsız Türkçe'nin **%59'unu** reddediyor (EN **%0.8**)
 - **[hf-dataset-scan](https://github.com/fevziegeyurtsevenler/hf-dataset-scan)** — veri seti gizli-injection tarayıcı + CI (~17k satırlık açık çalışma)
 - **[skills-in-the-wild](https://github.com/fevziegeyurtsevenler/skills-in-the-wild)** — AI ajan eklentileri denetimi (3168 eklenti)
+- **[ai-honeypot](https://github.com/fevziegeyurtsevenler/ai-honeypot)** — zafiyetli AI ajan görünümlü tuzak (honeypot): injection/jailbreak girişimlerini yakalayıp sınıflandırır · **[canlı panel](https://fevziegeyurtsevenler.github.io/ai-honeypot/)**
 - **[turkish-pii-redactor](https://github.com/fevziegeyurtsevenler/turkish-pii-redactor)** — tarayıcıda KVKK/PII maskeleme
 - **[tr-pii-detect](https://github.com/fevziegeyurtsevenler/tr-pii-detect)** · **[lethal-trifecta-lint](https://github.com/fevziegeyurtsevenler/lethal-trifecta-lint)** · **[agent-security-ci](https://github.com/fevziegeyurtsevenler/agent-security-ci)** · **[mcp-security-checklist](https://github.com/fevziegeyurtsevenler/mcp-security-checklist)** · **[guard-blindspots-tr](https://github.com/fevziegeyurtsevenler/guard-blindspots-tr)** · **[prompt-injection-corpus](https://github.com/fevziegeyurtsevenler/prompt-injection-corpus)** · **[owasp-agentic-skills-top10-tr](https://github.com/fevziegeyurtsevenler/owasp-agentic-skills-top10-tr)**
+
+### 📘 OWASP 2026 Türkçe
+
+OWASP LLM/Agentic Top 10 2026 sürümlerinin Türkçe çevirileri ve öz-değerlendirme araçları:
+
+- **[owasp-llm-top10-2026-tr](https://github.com/fevziegeyurtsevenler/owasp-llm-top10-2026-tr)** — OWASP Top 10 for LLM Applications 2026 Türkçe + makine-okunur edisyon (2025→2026 değişim haritası)
+- **[owasp-agentic-top10-2026-tr](https://github.com/fevziegeyurtsevenler/owasp-agentic-top10-2026-tr)** — OWASP Top 10 for Agentic Applications 2026 (ASI01–ASI10) Türkçe, MITRE ATLAS eşlemeli
+- **[llm-top10-2026-selfcheck](https://github.com/fevziegeyurtsevenler/llm-top10-2026-selfcheck)** — LLM Top 10 2026 interaktif öz-değerlendirme · **[HF Space](https://huggingface.co/spaces/fevziegeyurtsevenler/llm-top10-2026-selfcheck)**
+- **[agentic-top10-selfcheck](https://github.com/fevziegeyurtsevenler/agentic-top10-selfcheck)** — Agentic Top 10 2026 interaktif öz-değerlendirme · **[HF Space](https://huggingface.co/spaces/fevziegeyurtsevenler/agentic-top10-selfcheck)**
+- **[owasp-agentic-skills-top10-tr](https://github.com/fevziegeyurtsevenler/owasp-agentic-skills-top10-tr)** — OWASP Agentic Skills Top 10 Türkçe topluluk rehberi
 
 ---
 
