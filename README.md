@@ -4,12 +4,12 @@
 
 **Prompt injection, jailbreak, guardrail değerlendirmesi, KVKK/PII maskeleme, RAG ve otonom ajan (MCP) güvenliği, AI red-teaming** üzerine Türkçe açık kaynak araçlar, veri setleri, ölçütler ve eğitim serileri.
 
-Bu repo, dağınık çalışmaları tek yerde toplayan **açık kaynak bir Türkçe yapay zeka güvenliği ekosisteminin** giriş noktasıdır — rehberler, akademi, araştırma deneyleri, Hugging Face veri setleri/modeli ve 23+ araç buradan erişilebilir.
+Bu repo, dağınık çalışmaları tek yerde toplayan **açık kaynak bir Türkçe yapay zeka güvenliği ekosisteminin** giriş noktasıdır — rehberler, akademi, araştırma deneyleri, Hugging Face veri setleri/modeli ve 25+ araç buradan erişilebilir.
 
 <p align="left">
 <a href="https://altaysec.com.tr"><img src="https://img.shields.io/badge/🌐%20Web-altaysec.com.tr-2563eb"></a>
 <a href="https://ai.altaysec.com.tr"><img src="https://img.shields.io/badge/🎓%20Akademi-ai.altaysec.com.tr-7c3aed"></a>
-<a href="https://altaysec.com.tr/acik-kaynak"><img src="https://img.shields.io/badge/🧰%20Açık%20Kaynak%20Araçlar-23%2B-16a34a"></a>
+<a href="https://altaysec.com.tr/acik-kaynak"><img src="https://img.shields.io/badge/🧰%20Açık%20Kaynak%20Araçlar-25%2B-16a34a"></a>
 <a href="https://huggingface.co/fevziegeyurtsevenler"><img src="https://img.shields.io/badge/🤗%20HuggingFace-20%20veri%20seti%20%2B%201%20model-ff9d00"></a>
 <a href="https://doi.org/10.5281/zenodo.20681557"><img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20681557-1f6feb"></a>
 <a href="https://orcid.org/0009-0008-6518-8944"><img src="https://img.shields.io/badge/ORCID-0009--0008--6518--8944-a6ce39"></a>
@@ -104,7 +104,7 @@ Tümü **[huggingface.co/fevziegeyurtsevenler](https://huggingface.co/fevziegeyu
 
 ## 🧰 5) Açık Kaynak Araçlar
 
-> **Tüm açık kaynak araçların güncel listesi (23+):** **[altaysec.com.tr/acik-kaynak](https://altaysec.com.tr/acik-kaynak)** — kanonik index.
+> **Tüm açık kaynak araçların güncel listesi (25+):** **[altaysec.com.tr/acik-kaynak](https://altaysec.com.tr/acik-kaynak)** — kanonik index.
 
 Öne çıkan araçlar (her biri tekrar üretilebilir bir bulguya bağlı):
 
@@ -132,7 +132,7 @@ OWASP LLM/Agentic Top 10 2026 sürümlerinin Türkçe çevirileri ve öz-değerl
 
 ## 👤 Yazar Hakkında
 
-**Fevzi Ege Yurtsevenler** — AltaySec kurucusu. Türkçe yapay zeka güvenliği üzerine açık kaynak araçlar, veri setleri ve eğitim serileri üreten bağımsız araştırmacı. Türkçe LLM güvenliği için **7 bölümlük açık kaynak rehber serisi, uygulamalı akademi, 23+ açık kaynak araç ve 20 Hugging Face veri seti + 1 model** yayımladı.
+**Fevzi Ege Yurtsevenler** — AltaySec kurucusu. Türkçe yapay zeka güvenliği üzerine açık kaynak araçlar, veri setleri ve eğitim serileri üreten bağımsız araştırmacı. Türkçe LLM güvenliği için **7 bölümlük açık kaynak rehber serisi, uygulamalı akademi, 25+ açık kaynak araç ve 20 Hugging Face veri seti + 1 model** yayımladı.
 
 ### ✅ Doğrulanabilir Krediler
 
@@ -166,7 +166,7 @@ Bu ekosistemi kullandıysanız lütfen atıf verin:
 
 ## 🇬🇧 English
 
-Open-source, **Turkish-first AI/LLM security**: 7 guides, an applied academy, 20+ Hugging Face datasets, a trained detector (`turkish-prompt-injection-detector`, F1≈0.94 on its own Turkish test set) and 23+ tools. Highlights include **[uncloak](https://fevziegeyurtsevenler.github.io/uncloak)** (hidden-injection scanner, live) and **[guardrail-arena](https://github.com/fevziegeyurtsevenler/guardrail-arena)** (two-axis EN+TR guardrail benchmark; finding: guards over-refuse 40–70% of security-adjacent text, `jackhhao/jailbreak-classifier` misses 83% of Turkish attacks). Full tool index: **[altaysec.com.tr/acik-kaynak](https://altaysec.com.tr/acik-kaynak)**.
+Open-source, **Turkish-first AI/LLM security**: 7 guides, an applied academy, 20+ Hugging Face datasets, a trained detector (`turkish-prompt-injection-detector`, F1≈0.94 on its own Turkish test set) and 25+ tools. Highlights include **[uncloak](https://fevziegeyurtsevenler.github.io/uncloak)** (hidden-injection scanner, live) and **[guardrail-arena](https://github.com/fevziegeyurtsevenler/guardrail-arena)** (two-axis EN+TR guardrail benchmark; finding: guards over-refuse 40–70% of security-adjacent text, `jackhhao/jailbreak-classifier` misses 83% of Turkish attacks). Full tool index: **[altaysec.com.tr/acik-kaynak](https://altaysec.com.tr/acik-kaynak)**.
 
 ---
 
@@ -180,7 +180,7 @@ Katkılar memnuniyetle karşılanır. Dahil edilme ölçütü: Türkçe yapay ze
 
 - 🌐 Web: [altaysec.com.tr](https://altaysec.com.tr)
 - 🎓 Akademi: [ai.altaysec.com.tr](https://ai.altaysec.com.tr)
-- 🧰 Açık kaynak araçlar (23+): [altaysec.com.tr/acik-kaynak](https://altaysec.com.tr/acik-kaynak)
+- 🧰 Açık kaynak araçlar (25+): [altaysec.com.tr/acik-kaynak](https://altaysec.com.tr/acik-kaynak)
 - 🤗 Hugging Face: [huggingface.co/fevziegeyurtsevenler](https://huggingface.co/fevziegeyurtsevenler)
 - 💼 LinkedIn: [Fevzi Ege Yurtsevenler](https://www.linkedin.com/in/fevziegeyurtsevenler/)
 - 🧾 DOI: [10.5281/zenodo.20681557](https://doi.org/10.5281/zenodo.20681557) · ORCID: [0009-0008-6518-8944](https://orcid.org/0009-0008-6518-8944)
