@@ -195,3 +195,7 @@ Katkılar memnuniyetle karşılanır. Dahil edilme ölçütü: Türkçe yapay ze
 
 - 📖 [AI Security Öğrenme Rehberi — Sıfırdan Uzmanlığa](https://altaysec.com.tr/arastirmalar/ai-security-ogrenme-rehberi) — konunun derinlemesine Türkçe analizi
 - 🌐 [AltaySec Araştırmalar](https://altaysec.com.tr/arastirmalar/) — Türkçe yapay zekâ güvenliği yazıları
+
+## Lisans
+
+Bu repo [CC BY 4.0](LICENSE) ile lisanslıdır.
